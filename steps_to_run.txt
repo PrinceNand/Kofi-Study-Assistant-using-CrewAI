@@ -2,3 +2,9 @@ Document Ingestion:
 python -m src.rag_doc_ingestion.ingest_docs
 
 python -m src.agents_src.check_crew
+
+python -m src.backend_src.main
+
+http://localhost:8000/docs - after running the backend search in browser
+
+streamlit run src/frontend_src/app.py
